@@ -1,0 +1,67 @@
+.brdr1 {
+    border: solid gainsboro 1.5px;
+    border-radius: 2px;
+}
+
+.brdr2 {
+    border-bottom: solid gainsboro 1.5px;
+    border-radius: 2px;
+}
+
+
+
+
+ @media (max-width: 1239px) {}
+
+@media (max-width: 550px) {
+    .btn1 {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        border: solid gainsboro 1px;
+        /* the border will curve into a 'D' */
+        border-radius: 2px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 95%;
+    }
+    .cartitle {
+        font-family: helvetica;
+        font-size: 17px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .listado {
+        background-color: whitesmoke;
+        margin-top: 3%;
+        /* margin-left: 2%;
+        margin-right: 2%; */
+        width: 100%;
+    }
+    .listado1 {
+        background-color: whitesmoke;
+        /* margin-left: 2%;
+        margin-right: 2%; */
+        width: 100%;
+    }
+
+    .imagen{
+        width:  30%;      
+
+    }
+
+    .texto{
+        width: 60%;
+    }
+
+    .img-listado{
+        padding: 5%;
+        border-radius: 10%;
+ 
+        width: 100%;
+         height: 20vh;  
+        object-fit: scale-down;
+    }
+
+   
+}

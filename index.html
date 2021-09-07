@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAYLOR'S SHOP</title>
+
+    <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/myclass.css">
+    <link rel="stylesheet" href="./css/estetica.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+
+    <script src="./js/responsive-nav.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="borderbottom color2">
+            <div class="cabezera displayf color1">
+
+                <div class="menu-r ">
+                    <a href="javascript:void(0);" class="icon text-secondary" onclick="myFunction()">
+                        <i id="icon" class="fa fa-bars"></i>
+                    </a>
+
+                </div>
+                <div class="top1">
+                  <a href="./index.html">  <span class="span text-secondary"> TAYLOR'S SHOP </span></a>
+                </div>
+
+                <div class="m1">
+                    <form class="displayf">
+                        <input class="w1 form-control" type="text" placeholder="Search">
+                        <button class="m2 btn btn-outline-success my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i></button>
+                    </form>
+
+                </div>
+
+                <div class="m3">
+                    <ul class="displayf decoration ">
+                        <li class="m4"> <a class="text-secondary" href="#">Iniciar sesion</span></a></li>
+                        <li class="m4"> <a class="text-secondary" href="#">Ofertas</span></a></li>
+                        <li class="m4"> <a class="text-secondary" href="#">Contacto</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="d-none" id="menu">
+                <ul class="decoration pl-0">
+                    <li class="m4-1 ">
+                        <form class=" displayf mt-3 pl-2 pr-5">
+                            <input class="buscador  form-control " type="text" placeholder="Buscar" />
+                        </form>
+                    </li>
+                    <li class="m4"> <a class="text-secondary" href="#">Iniciar sesion</span></a></li>
+                    <li class="m4"> <a class="text-secondary" href="#">Ofertas</span></a></li>
+                    <li class="m4"> <a class="text-secondary" href="secciones/Catalogo.html">Catalogo</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carrusel-G">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./imagenes/inicio/Blog_Banner.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./imagenes/inicio/Como-diseñar-ofertas-que-convierten-A.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./imagenes/inicio/carro.jpeg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="categorias">
+        <div class="card">
+            <div class="card-header">
+                Categorias
+            </div>
+            <div class="card-body   text-secondary p-1 d-flex flex-wrap ">
+
+                <div class="card wi1 m-1">
+                    <a class="decorationlink" href="#">
+                        <div class="card-body text-center">
+                            <i class=" mb-3 fg fas fa-tshirt"></i><br>
+                            <span class="pt-2">Ropa</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card wi1 m-1">
+                    <a class="decorationlink" href="#">
+                        <div class="card-body text-center">
+                            <i class="mb-3 fg fas fa-car"></i><br>
+                            <span class="pt-2">Repuestos y accesorios</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card wi1 m-1">
+                    <a class="decorationlink" href="#">
+                        <div class="card-body text-center">
+                            <i class="mb-3 fg fas fa-mobile"></i><br>
+                            <span class="pt-2">Celulares</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card wi1 m-1">
+                    <a class="decorationlink" href="#">
+                        <div class="card-body text-center">
+                            <i class="mb-3 fg fas fa-microphone"></i><br>
+                            <span class="pt-2">Electronica</span>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div class="top2 botm1">
+                <a href="#"><button class="btn1 ">Ver todo</button></a>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <footer class="bg-secondary mt-4">
+        <section class="pt-3 py-3 text-center">
+            <p class="text-white ">Desarollado por gessex22 </p>
+            <p class="mb-0">© 2021 TAYLOR'S SHOP</p>
+            <!-- <p><a href="mailto:hege@example.com">steinergessemberg@gmail.com</a></p> -->
+        </section>
+
+    </footer>
+
+
+    <script src="./js/responsive-nav.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
